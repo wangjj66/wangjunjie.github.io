@@ -1,6 +1,6 @@
 
 
-[![Yixin0313](https://img.shields.io/badge/Yixin0313-github-blue?logo=github)](https://github.com/Yixin0313)
+
 
 M.Sc. in Computer Science, Uppsala University, Sweden. 
 
