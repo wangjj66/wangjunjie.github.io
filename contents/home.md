@@ -5,8 +5,8 @@
 M.Sc. in Computer Science, Uppsala University, Sweden. 
 
 #### Email
-<code>yixin.huang.0067@student.uu.se</code>  
-<code>HYX20018888@outlook.com</code>
+<code>1713620499@qq.com</code>  
+
 
 #### Education
 **Uppsala University**, Master of Computer Science (Aug 2023 – Jun 2025)  
