@@ -2,7 +2,7 @@
 
 
 
-M.Sc. in Computer Science, Uppsala University, Sweden. 
+a normal person in the busy world
 
 #### Email
 <code>1713620499@qq.com</code>  
