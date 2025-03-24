@@ -1,94 +1,83 @@
-<html>
-    <head>
-    </head>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>兴趣爱好</title>
     <style>
-    body { <section class="top-section" style="background-image: url(‘https://tse4-mm.cn.bing.net/th/id/OIP-C.fWw_vx8UzTRS6ysvcoCz4gHaDy?w=349&h=178&c=7&r=0&o=5&pid=1.7');">
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    nav {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-    }
-    
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-    
-    nav ul li {
-        margin: 0 10px;
-    }
-    
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-    }
-    
-    .profile {
-        text-align: center;
-        padding: 50px;
-    }
-    
-    .profile img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e9f6ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+
+       .main-content {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .hobby-item {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .hobby-item img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .hobby-item h2 {
+            color: #1fa5f1;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
     </style>
 </head>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-
-    nav {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-    }
-
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: 0 10px;
-    }
-
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .hobby {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .hobby img {
-        width: 300px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-</style>
-    
-    </head>
-   <body bgcolor="#040404">
-    
+<body>
     <nav>
         <ul>
             <li><a href="index.html">主页</a></li>
@@ -98,14 +87,17 @@
             <li><a href="javascript.html">JavaScript 演示</a></li>
         </ul>
     </nav>
-    
-    <h1>兴趣爱好</h1>
-    <img src="https://ts1.tc.mm.bing.net/th?id=OIP-C.fflWKqi8qTh9wleZUhbwOQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="足球" align="center">
-    <h2 style="color: white;">平时喜欢踢踢足球，和以前的同学一起</h2><br>
-    <img src="https://ts1.tc.mm.bing.net/th?id=OIP-C.etKmhuB3yMeCnyfYHjuPYQHaE7&w=243&h=211&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="打游戏"align="center">
-    <h2 style="color: white;">紧张时偶尔玩玩游戏，放松一下</h2>
-
+    <div class="main-content">
+        <h1>兴趣爱好</h1>
+        <div class="hobby-item">
+            <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.ty1LSlbf-_H98_8aR80W-QHaEU?w=294&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="足球">
+            <h2>足球，是我生活中的光。踏上绿茵场，风在耳边呼啸，脚下足球似有生命。每一次奔跑，都是对自我的挑战；每一脚射门，都承载着满心期待。在这片草地上，汗水与欢笑交织，足球于我，早已是一生热爱。</h2>
+        </div>
+        <div class="hobby-item">
+            <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.0irC-W02pmqbZZtC9tkXmwHaEJ?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="打游戏">
+            <h2>游戏，是我在平凡日子里探寻奇妙的窗口。当我握紧手柄，或敲击键盘，瞬间便踏入另一个维度。在游戏世界中，每一次抉择都关乎成败，每一次突破难关都让我热血沸腾。虚拟战场里，我与队友并肩作战，共同攻克艰难险阻，收获胜利的喜悦。游戏，点亮了我的生活，成为我无法割舍的热爱。</h2>
+        </div>
+    </div>
 </body>
-
-
 </html>
+    
