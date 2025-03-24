@@ -1,3 +1,3 @@
-District - level Glory Badge——Honor of Kings
-Ace rank——Peacekeeper Elite
-Clear the levels in Dream Westward Journey
+District - level Glory Badge——Honor of Kings<br>
+Ace rank——Peacekeeper Elite<br>
+Clear the levels in Dream Westward Journey<br>
