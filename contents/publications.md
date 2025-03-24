@@ -1,2 +1,3 @@
-- I hope that one day in the future, I will be able to publish my own outstanding paper and make even the smallest contribution to the field of AGI.
 
+
+"Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill​
